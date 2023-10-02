@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<binge>
+    <movies>
+    <movie>
+        <title>Mission Impossible</title>
+        <actor>Tom Cruise</actor>
+        <year>2023</year>
+    </movie>
+    <movie>
+        <title>Fast and Furious </title>
+        <actor>Vin Diesel</actor>
+        <year>2009</year>
+    </movie>
+    </movies>
+    <series>
+    <serie>
+        <title>Breaking Bad</title>
+        <actor>Bryan</actor>
+        <year>2005</year>
+    </serie>
+    <serie>
+        <title>Game Of Thrones</title>
+        <actor>Emilia Clarke</actor>
+        <year>2011</year>
+    </serie>
+    </series>
+</binge>

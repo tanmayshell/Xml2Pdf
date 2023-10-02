@@ -1,0 +1,50 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="task.css">
+        <title>
+            Movies and Series
+        </title>
+    </head>
+    <body>
+        {{> header}}
+        <main>
+        <section>
+ <table>
+            <tr>
+                <th>Title1</th>
+                <th>Actor1</th>
+                <th>Year Of Release1</th>
+            </tr>
+            {{#each movies}}
+            <tr>
+                <td>{{title}}</td>
+                <td>{{actor}}</td>
+                <td>{{year}}</td>
+            </tr>
+            {{/each}}
+        </table>
+        </section>
+       <section>
+    <table>
+            <tr>
+                <th>Title2</th>
+                <th>Actor2</th>
+                <th>Year Of Release2</th>
+            </tr>
+            {{#each series}}
+            <tr>
+                <td>{{title}}</td>
+                <td>{{actor}}</td>
+                <td>{{year}}</td>
+            </tr>
+            {{/each}}
+        </table>
+       </section>
+        </main>
+        <br>
+        <br>
+        <footer>{{footer}}</footer>
+        
+    </body>
+
+</html>
